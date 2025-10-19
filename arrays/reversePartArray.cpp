@@ -15,8 +15,8 @@ void Solution(std::vector<int>& arr, int k) {
     int n = arr.size();
 
     ReversePartArray(arr, 0, n - 1);
-    ReversePartArray(arr, 0, k - 1);
-    ReversePartArray(arr, k, n - 1);
+    ReversePartArray(arr, 0, k % n - 1);
+    ReversePartArray(arr, k % n, n - 1);
 
     return;
 }
