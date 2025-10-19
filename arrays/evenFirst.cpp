@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void evenFirst_void(std::vector<int>& arr) {
+void evenFirst(std::vector<int>& arr) {
     int evenIndex = 0;
 
     for (int i = 0; i < arr.size(); ++i) {
